@@ -5,7 +5,7 @@
   "helpers": {
     "WebDriverIO": {
       "url": "http://phptravels.net/",
-      "browser": "phantomjs"
+      "browser": "firefox"
     }
   },
   "include": {
@@ -16,5 +16,5 @@
   "bootstrap": false,
   "mocha": {},
   "name": "CodeCeptJSDemo"
-  
+
 }
