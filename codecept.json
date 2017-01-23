@@ -5,7 +5,7 @@
   "helpers": {
     "WebDriverIO": {
       "url": "http://phptravels.net/",
-      "browser": "chrome"
+      "browser": "phantomjs"
     }
   },
   "include": {
