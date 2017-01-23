@@ -1,0 +1,19 @@
+{
+  "tests": "./tests/*_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "http://phptravels.net/",
+      "browser": "firefox"
+    }
+  },
+  "include": {
+    "I": "./steps/steps_file.js",
+    "homePage": "./pages/homePage.js",
+    "loginPage": "./pages/loginPage.js"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "CodeCeptJSDemo"
+}
