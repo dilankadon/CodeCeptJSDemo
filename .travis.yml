@@ -6,13 +6,6 @@
   "cache": {
     "directories": null
   },
-  "before_install": [
-    "sudo apt-get install xvfb",
-    "sudo apt-get install firefox-mozilla-build",
-    "sudo sh -e /etc/init.d/xvfb start &",
-    "sleep 3",
-    "export DISPLAY=localhost:0.0",
-  ],
   "before_script": [
     "node_modules/protractor/bin/webdriver-manager update",
     "node_modules/protractor/bin/webdriver-manager start 2>&1 &",
